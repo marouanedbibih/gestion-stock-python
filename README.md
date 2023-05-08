@@ -31,15 +31,20 @@ Modifiez les paramètres de connexion à la base de données selon vos besoins. 
 
 ### Exemple de configuration de la connexion à la base de données
 host = "localhost"
+
 user = "utilisateur"
+
 password = "mot_de_passe"
+
 database = "nom_de_la_base_de_données"
+
 Assurez-vous de fournir les informations correctes pour votre environnement de base de données.
 
 ## Demarage
 Accédez au répertoire du projet.
 
 Pour exécuter le système de gestion de stock, exécutez le script principal root.py.
+
 $ python main.py
 
 
@@ -50,14 +55,18 @@ Le système de gestion de stock comprend les fonctionnalités suivantes :
 ### Backend (classe) :
 
 Connexion : Gère la connexion à la base de données.
+
 User : Gère les opérations liées aux utilisateurs (ajouter, supprimer, mettre à jour, afficher).
+
 Product : Gère les opérations liées aux produits (ajouter, supprimer, mettre à jour, afficher).
 
 ### Frontend (interface graphique) :
 
 Login : Permet aux utilisateurs de se connecter au système.
+
 Menu : Affiche le menu principal du système.
-User : Manipulation des 
+
+User : Manipulation des Utilisateurs
 
 ### Acteurs 
     ### Marouane Dbibih
